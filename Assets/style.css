@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    font-weight: 900;
+}
+
+.board {
+
+    background-color: rgb(189, 217, 194);
+    width: 100% !important;
+    height: 100vh !important;
+    padding-bottom: 20px !important;
+}
+
+.board .buttons-board button {
+
+    margin: 4px 6px 0px 2px;
+    background-color: rgb(87, 127, 78);
+    height: 8vh !important;
+    width: 40% !important;
+}
+
+.board .buttons-board button:hover {
+    border-radius: 10px !important;
+    background-color: rgb(23, 76, 10);
+}
+
+.board .number-before,
+.board .result {
+    margin-left: 15px;
+}
